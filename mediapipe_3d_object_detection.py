@@ -15,7 +15,8 @@ objectron = mp_objectron.Objectron(static_image_mode=False,
                             max_num_objects=5,
                             min_detection_confidence=0.4,
                             min_tracking_confidence=0.70,
-                            model_name='Cup')
+                            model_name='Chair')
+                            #model_name='Cup')
                             
 while cap.isOpened():
     success, image = cap.read()
